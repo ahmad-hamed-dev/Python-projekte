@@ -1,0 +1,11 @@
+basket=[ ["apples", "bananas"], ["milk", "water"] ]
+print(basket)
+enter=input("press enter to change the content: ")
+basket[0].insert(0,"oranges")
+basket[0].insert(3,"kiwis" )
+basket[1].remove("water")
+basket[1].insert(0,"coffee")
+basket[1].insert(2,"tea")
+basket.append([1,2,3])
+print("here is the updated basket: ")
+print(basket)
